@@ -1,0 +1,22 @@
+{
+  "name": "models-math",
+  "version": "1.0.0",
+  "description": "Get models",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayminpadaria/models-math.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayminpadaria/models-math/issues"
+  },
+  "homepage": "https://github.com/jayminpadaria/models-math#readme",
+  "dependencies": {
+    "mongoose": "^5.0.16"
+  }
+}
