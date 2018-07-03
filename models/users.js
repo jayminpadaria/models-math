@@ -1,6 +1,4 @@
-var mongoose = require('mongoose');
-
-var UserSchema = new mongoose.Schema({
+var UserSchema = {
     email: { type: String },
     username: { type: String, required: true, unique: true },
     password: { type: String, required: true },
@@ -33,9 +31,5 @@ var UserSchema = new mongoose.Schema({
     reset_token: String,
     reset_token_timestamp: Date,
     pagination_rows: { type: Number, default: 10 }
-});
-
-
-mongoose.model('Users', UserSchema);
-
+};
 module.exports = mongoose.model('Users');

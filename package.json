@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/jayminpadaria/models-math#readme",
   "dependencies": {
-    "mongoose": "^5.0.16"
+    
   }
 }

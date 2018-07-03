@@ -1,5 +1,4 @@
-var mongoose = require('mongoose');
-var CoreSchema = new mongoose.Schema({
+var CoreSchema = {
     schools: [{
         name: String,
         grades: Array,
@@ -97,8 +96,5 @@ var CoreSchema = new mongoose.Schema({
             name: String
         }]
     })]
-});
-
-mongoose.model('Cores', CoreSchema);
-
+}
 module.exports = mongoose.model('Cores');
